@@ -1,0 +1,42 @@
+   97  sudo apt update
+   98  sudo apt upgrade
+   99  sudo nano /etc/sysctl.conf
+  100  nano .bashrc
+  101  ip addr show
+  102  sudo apt update
+  103  sudo apt upgrade
+  104  sudo rm /etc/apt/preferences.d/nosnap.pref
+  105  sudo apt update
+  106  sudo apt install snapd snapd-xdg-op
+  107  sudo apt install snapd snapd-xdg-open
+  108  sudo snap install pycharm-community --classic
+  109  sudo apt-get install python3-setuptools
+  110  sudo apt-get install python3-pip
+  111  sudo apt-get install python3-distutils
+  112  sudo apt-get install python3-tk
+  113  pycharm-community
+  114  sudo apt-get install python3-venv
+  115  mkdir myenvir
+  116  cd myenvir
+  117  python3 -m venv myenv
+  118  python3 -m venv myenv2
+  119  source myenv1/bin/activate
+  120  cd ..
+  121  source myenv1/bin/activate
+  122  pip3 install ipython
+  123  pip3 install jupyter notebook
+  124  git --version
+  125  git config --list --show-origin
+  126  git config --global user.name "OlegPetrov777"
+  127  git config --global user.email oleg.ptro737@gmail.com
+  128  git config --list --show-origin
+  129  mkdir mygit
+  130  cd mygit
+  131  git init
+  132  git status
+  133  touch test.txt
+  134  git status
+  135  git add test.txt
+  136  git status
+  137  git commit -m "my first commit"
+  138  git status
